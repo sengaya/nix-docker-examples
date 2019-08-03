@@ -17,7 +17,7 @@ docker run --rm cowsay-nix
 ```
 
 ## Example with python
-This example will build a docker image that runs the python scrip `hello-busconf` with the help of:
+This example will build a docker image that runs the python script `hello-busconf` with the help of:
 - `hello-busconf.nix` - build the nix package, inclduing python dependencies
 - `hello-busconf.docker.nix` - build the docker image
 - `default.nix` - build both
